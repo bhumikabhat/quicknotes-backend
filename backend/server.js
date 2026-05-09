@@ -8,7 +8,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "https://quicknotes-frontend-zeta.vercel.app/",
+    origin: "https://quicknotes-frontend-zeta.vercel.app",
     credentials: true,
   })
 );
